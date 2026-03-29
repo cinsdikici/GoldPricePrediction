@@ -17,6 +17,7 @@ Modularity is key to building maintainable machine learning applications.
 
 Folder Structure:
 
+<pre>
 gold_prediction_project/
 ├── DataSet/
 │   └── gram_gold_10yrs.csv       # The provided 10-year historical dataset
@@ -24,6 +25,7 @@ gold_prediction_project/
 │   ├── __init__.py               # Initializes the Model directory as a Python package
 │   └── functions.py              # Contains all your machine learning and utility functions
 └── predict.py                    # The main execution script that imports from Model
+</pre>
 
 # 3. Component Details
 # 3.1. The Dataset (DataSet/gram_gold_10yrs.csv)
